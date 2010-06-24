@@ -2,4 +2,6 @@
 
 = Introduction =
 
-Add your content here.
+I wanted to be able to use the QuickActions and Popdown menu that the Twitter for Android app features but I did not want to wait for them to open source the code. So the only option was to figure out how they did it.
+
+The key is a little unknown class in the android.widget namespace. [http://developer.android.com/reference/android/widget/PopupWindow.html PopupWindow] is the key. It allows you to display any arbitrary view on the screen.
